@@ -8,7 +8,7 @@ const MODE_GRAPHING = 2;
 const NR_MODE_IEEE = 0;
 const NR_MODE_BIGINT = 1;
 
-let mode = MODE_PROGRAMMER;
+let mode = MODE_STANDARD;
 let nrmode = NR_MODE_IEEE;
 
 let pCurrentBase = 10;
