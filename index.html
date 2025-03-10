@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="cont leftbar">
+            <h1 id="calc-mode" class="inter-regular">
+                <span>Standard</span>
+                <hr color="#fff">
+                <br>
+            </h1>
+            <ul class="inter-regular lbul">
+                <li>Modes</li>
+                <li>Standard</li>
+                <li>Programmer</li>
+                <li>Graphing</li>
+            </ul>
+
+            <ul class="inter-regular lbul">
+                <li>Number representation</li>
+                <li>IEEE (default)</li>
+                <li>bigint (custom)</li>
+            </ul>
+
+            <ul class="inter-regular lbul">
+                <li>Settings</li>
+                <li>Clear history</li>
+            </ul>
+        </section>
+        <section class="cont s-right">
+            <section class="sr-top">
+                <div class="mode mode-standard">
+                    <div class="cres">
+                        <div id="history">
+                        </div>
+                        <input type="text" id="result" class="inter-regular" readonly>
+                    </div>
+                </div>
+                <div class="mode mode-programmer">
+                    <div class="cres">
+                        <div id="p-history">
+                        </div>
+                        <input type="text" id="p-result" class="inter-regular" readonly>
+                    </div>
+                </div>
+            </section>
+            <section class="sr-btm">
+                <div class="mode mode-standard">
+                    <div class="d-btns">
+                        <button class="btn">AC</button>
+                        <button class="btn">+/-</button>
+                        <button class="btn">mod</button>
+                        <button class="btn">C</button>
+                        <button class="btn">7</button>
+                        <button class="btn">8</button>
+                        <button class="btn">9</button>
+                        <button class="btn">/</button>
+                        <button class="btn">4</button>
+                        <button class="btn">5</button>
+                        <button class="btn">6</button>
+                        <button class="btn">*</button>
+                        <button class="btn">1</button>
+                        <button class="btn">2</button>
+                        <button class="btn">3</button>
+                        <button class="btn">-</button>
+                        <button class="btn">.</button>
+                        <button class="btn">0</button>
+                        <button class="btn">=</button>
+                        <button class="btn">+</button>
+                    </div>
+                </div>
+
+                <div class="mode mode-programmer">
+                    <div class="d-btns">
+                        <button class="p-btn">HEX</button>
+                        <button class="p-btn">DEC</button>
+                        <button class="p-btn">OCT</button>
+                        <button class="p-btn">BIN</button>
+                        <button class="p-btn">AC</button>
+                        <button class="p-btn">&</button>
+                        <button class="p-btn">|</button>
+                        <button class="p-btn">C</button>
+                        <button class="p-btn">7</button>
+                        <button class="p-btn">8</button>
+                        <button class="p-btn">9</button>
+                        <button class="p-btn"><<</button>
+                        <button class="p-btn">4</button>
+                        <button class="p-btn">5</button>
+                        <button class="p-btn">6</button>
+                        <button class="p-btn">>></button>
+                        <button class="p-btn">1</button>
+                        <button class="p-btn">2</button>
+                        <button class="p-btn">3</button>
+                        <button class="p-btn">^</button>
+                        <button class="p-btn">A</button>
+                        <button class="p-btn">0</button>
+                        <button class="p-btn">=</button>
+                        <button class="p-btn">~</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
